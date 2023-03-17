@@ -15,9 +15,7 @@
     </head>
 
 
-    <body>
-        <!-- <div class="home-bg"></div> -->
-        
+    <body>        
         <!-- header -->
         <header id="home">
             <div class="home-bg"></div>
@@ -51,52 +49,55 @@
             <div class="banner">
                 <ul class="home-btns">
                     <li class="li-item projects-item">
-                        <a href="#projects"><h1>robots & projects {.}</h1></a>
+                        <a href="#projects" class="scroll-link"><h1>robots & projects {.}</h1></a>
                     </li>
                     <li class="li-item about-item">
-                        <a href="#about"><h1>what they are ⁛</h1></a>
+                        <a href="#about" class="scroll-link"><h1>what they are ⁛</h1></a>
                     </li>
                     <li class="li-item contacts-item" >
-                        <a href="#contacts"><h1>contacts Ꞟ</h1></a>
+                        <a href="#contacts" class="scroll-link"><h1>contacts Ꞟ</h1></a>
                     </li>
                 </ul>
             </div>
+            
         </header>
 
-        
-
+        <!-- main -->
+        <main>
         <!-- about -->
-        <section id="about" class="section section-bg">
+        <section id="about">
             <div class="title">
-                <h2>what they are</h2>
-                
+                <h1>what they are ⁛</h1>
             </div>
             <div class="container">
                 <p>
                     Roboteria is a collection of pet-projects, small apps with primitive AI. 
                     I hope these tiny robots can serve as a fundation for something bigger and more useful. 
-                    You can meet robots right here: 
+                    You can visit ths panopticon right here: <a href="#projects" class="scroll-link"><i class="icon-brain"></i></a>
                 </p>
             </div>
         </section>
         <!-- projects -->
-        <section id="projects" class="section section-bg">
+        <section id="projects">
             <div class="title">
-                <h2>robots & projects</h2>
+                <h1>robots & projects {.}</h1>
             </div>
+            <!-- projects vidgets -->
+            <div class="gallery"></div>           
         </section>
         <!-- contact -->
-        <section id="contacts" class="section section-bg">
+        <section id="contacts">
             <div class="title">
-                <h2>contacts</h2>
+                <h1>contacts</h1>
             </div>
         </section>
+        </main>
 
         <!-- footer -->
-        <footer class="section">
+        <footer class="footer">
             <p>
-                copyright &copy; roboteria <span id="date">2023</span>
-                .all rights reserved
+                copyright &copy; roboteria <span id="date">2023</span>. 
+                all rights reserved
             </p>
         </footer>
 
